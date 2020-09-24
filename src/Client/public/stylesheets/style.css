@@ -1,0 +1,66 @@
+body {
+  font: 16px "Cherry Swash";
+  background-color: #faf2e8;
+}
+
+input[type="text"] {
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 766px) {
+  .boton {
+    margin: auto;
+    position: absolute;
+    top: 4em;
+    left: 3.5em;
+  }
+}
+
+@media screen and (max-width: 766px) and (min-width: 594px) {
+  .fila {
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    top: 10em;
+    bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .fila {
+    position: absolute;
+    left: 25%;
+    right: 5em;
+    top: 10em;
+    bottom: 4em;
+  }
+  .boton {
+    margin: auto;
+    margin-top: 0.3em;
+    position: absolute;
+    top: 4em;
+    left: 1.9em;
+  }
+}
+@media screen and (max-width: 590px) and (min-width: 360px) {
+  .fila {
+    position: absolute;
+    left: 25%;
+    right: 5em;
+    top: 10em;
+    bottom: 4em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .boton {
+    margin: auto;
+    margin-top: 0.3em;
+    position: absolute;
+    top: 4em;
+    left: 1.9em;
+  }
+}
